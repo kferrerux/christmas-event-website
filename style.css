@@ -1,0 +1,162 @@
+/*css par ferrerkevin @2024*/
+/*https://github.com/kferrerux*/
+
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffafa;
+    font-family: 'Sacrameto', Titan One;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding: 1%;
+    color: black(255, 0, 0);
+}
+
+.logo {
+    width: 80px;
+    height: 90px;
+    margin: 0 0 0 0px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    font-family: 'Encode Sans';
+    font-weight: 400;
+    margin: 0 100px 0 0;
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+    color: rgb(51, 24, 24);
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    transition: all 0.4s;
+    transform: scale(1.1);
+    border-bottom: 10px solid red;
+}
+
+.active {
+    border-bottom: 10px solid red;
+}
+
+.active:hover {
+    transition: all 0.4s;
+    transform: scale(1.1);
+    border-bottom: 10px solid red;
+}
+
+/*.socials {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}*/
+
+#hero {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Francois One';
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Encode Sans';
+    font-size: 4rem;
+    color: rgb(51, 24, 24);
+}
+
+main p {
+    text-align: center;
+    font-family: 'Encode Sans';
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+
+#hero img {
+    width: 80%;
+    height: 80%;
+}
+
+#hero form {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero form input {
+    font-family: 'Encode Sans';
+    font-size: 1.5rem;
+    color: rgb(51, 24, 24);
+    margin-bottom: 2%;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.008);
+    border: 2px solid rgba(62, 18, 18, 0.211);
+    border-radius: 5px;
+}
+
+#about {
+    font-family: 'Encode Sans';
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 100%;
+    padding: 2%;
+    color: white;
+}
+
+#about:hover {
+    font-family: 'Encode Sans';
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 100%;
+    padding: 2%;
+    color: white;
+}
+
+.about_box {
+    margin-right: 3%;
+    width: 30%;
+}
+
+.about_box:hover {
+    transition: all 0.4s;
+    transform: scale(1.1);
+    margin-right: 3%;
+    width: 30%;
+}
+
+#about h2 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
